@@ -4,7 +4,7 @@ public class Sevenheven2 {
 public boolean findNumber( int[] number) {
 for (int i = 0; i < number.length; i++) {
 if (number[i] >= 10 || number[i]>= -10) {
-String num = String.valueOf(number[i]);
+String num = String.valueOf(number[i]);//returns string representation
 char[] tab = num.toCharArray();
 for (int j = 0; j < tab.length ; j++) {
 if(tab[j] == '7') {
